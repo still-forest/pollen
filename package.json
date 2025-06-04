@@ -8,14 +8,13 @@
   "types": "./types/index.d.ts",
   "files": [
     "index.mjs",
-    "prettier.config.mjs",
     "configs/",
     "types/"
   ],
   "exports": {
     ".": "./index.mjs",
     "./configs": "./configs/",
-    "./prettier": "./prettier.config.mjs",
+    "./prettier": "./configs/prettier.config.mjs",
     "./types": "./types/index.d.ts"
   },
   "private": false,
