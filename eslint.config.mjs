@@ -1,5 +1,5 @@
 // local config
-import { base } from "./index.mjs";
+import { base } from "./lib/index.mjs";
 
 export default [
   ...base,
