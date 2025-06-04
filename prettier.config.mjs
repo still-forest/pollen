@@ -1,5 +1,3 @@
-import tailwindcss from "prettier-plugin-tailwindcss";
-
 export default {
   semi: true, // semicolons
   singleQuote: false, // double quotes
@@ -8,5 +6,5 @@ export default {
   tabWidth: 2, // 2 spaces for indentation
   trailingComma: "es5", // es5 trailing comma
   printWidth: 120, // 120 characters for line length
-  plugins: [tailwindcss],
+  plugins: ["prettier-plugin-tailwindcss"],
 };

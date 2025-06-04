@@ -3,10 +3,10 @@
     "npm.packageManager": "pnpm",
     "files.exclude": {
       "**/dist": true,
-      "**/node_modules": true
-    }
+      "**/node_modules": true,
+    },
   },
   "extensions": {
-    "recommendations": ["esbenp.prettier-vscode", "dbaeumer.vscode-eslint"]
-  }
+    "recommendations": ["esbenp.prettier-vscode", "dbaeumer.vscode-eslint"],
+  },
 }

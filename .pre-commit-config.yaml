@@ -19,13 +19,9 @@ repos:
         name: Lint
         entry: bash -c 'pnpm lint:fix;'
         language: system
-        files: ^lib/.*\.(ts|js)$
-        pass_filenames: true
-        always_run: false
-      - id: test
-        name: Test
-        entry: bash -c 'pnpm test;'
+        always_run: true
+      - id: format
+        name: Format
+        entry: bash -c 'pnpm format;'
         language: system
-        files: ^lib/.*\.(ts|js)$
-        pass_filenames: true
-        always_run: false
+        always_run: true
