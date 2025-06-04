@@ -1,0 +1,25 @@
+{
+  "name": "@still-forest/pollen",
+  "version": "0.1.0",
+  "author": "John Szymanowski <john@stillforest.dev>",
+  "license": "MIT",
+  "description": "TypeScript linter + formatter, based on ESLint & Prettier",
+  "main": "index.js",
+  "private": false,
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/still-forest/pollen.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "release-it"
+  },
+  "packageManager": "pnpm@10.11.0",
+  "devDependencies": {
+    "release-it": "^19.0.3"
+  }
+}

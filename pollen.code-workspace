@@ -1,0 +1,12 @@
+{
+  "settings": {
+    "npm.packageManager": "pnpm",
+    "files.exclude": {
+      "**/dist": true,
+      "**/node_modules": true
+    }
+  },
+  "extensions": {
+    "recommendations": ["esbenp.prettier-vscode", "dbaeumer.vscode-eslint"]
+  }
+}
