@@ -1,2 +1,2 @@
 // local config
-export { default } from "./configs/prettier.config.mjs";
+export { prettier as default } from "./lib/index.mjs";

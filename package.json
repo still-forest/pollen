@@ -4,18 +4,17 @@
   "author": "John Szymanowski <john@stillforest.dev>",
   "license": "MIT",
   "description": "TypeScript linter + formatter, based on ESLint & Prettier",
-  "main": "index.mjs",
-  "types": "./types/index.d.ts",
+  "type": "module",
+  "main": "lib/index.mjs",
+  "types": "lib/types/index.d.ts",
   "files": [
-    "index.mjs",
-    "configs/",
-    "types/"
+    "lib/"
   ],
   "exports": {
-    ".": "./index.mjs",
-    "./configs": "./configs/",
-    "./prettier": "./configs/prettier.config.mjs",
-    "./types": "./types/index.d.ts"
+    ".": "./lib/index.mjs",
+    "./configs": "./lib/configs/",
+    "./prettier": "./lib/configs/prettier.config.mjs",
+    "./types": "./lib/types/index.d.ts"
   },
   "private": false,
   "publishConfig": {
