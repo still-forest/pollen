@@ -1,6 +1,6 @@
 {
   "name": "@still-forest/pollen",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "author": "John Szymanowski <john@stillforest.dev>",
   "license": "MIT",
   "description": "TypeScript linter + formatter, based on ESLint & Prettier",
