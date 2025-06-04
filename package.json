@@ -4,7 +4,6 @@
   "author": "John Szymanowski <john@stillforest.dev>",
   "license": "MIT",
   "description": "TypeScript linter + formatter, based on ESLint & Prettier",
-  "type": "module",
   "main": "lib/index.mjs",
   "types": "lib/types/index.d.ts",
   "files": [
