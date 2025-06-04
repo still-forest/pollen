@@ -5,6 +5,7 @@ set -x
 
 # Install dependencies
 pnpm install
+npm install -g pre-commit
 
 # Install pre-commit hooks
-pnpm pre-commit install
+pre-commit install

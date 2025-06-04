@@ -42,7 +42,7 @@ export { react as default } from "@still-forest/pollen";
 
 ```jsonc
 // package.json
-"prettier": "@yourname/lint-config/prettier"
+"prettier": "@still-forest/pollen/prettier"
 ```
 
 #### Option 2: ES module

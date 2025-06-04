@@ -29,9 +29,9 @@
   },
   "scripts": {
     "format": "prettier --write .",
-    "lint": "eslint --ext .js,.ts .",
-    "lint:ci": "eslint --ext .js,.ts --quiet .",
-    "lint:fix": "eslint --ext .js,.ts --fix .",
+    "lint": "eslint .",
+    "lint:ci": "eslint --quiet .",
+    "lint:fix": "eslint --fix .",
     "release": "release-it",
     "release:dry-run": "release-it --dry-run"
   },
