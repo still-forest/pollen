@@ -5,6 +5,19 @@
   "license": "MIT",
   "description": "TypeScript linter + formatter, based on ESLint & Prettier",
   "main": "index.mjs",
+  "types": "./types/index.d.ts",
+  "files": [
+    "index.mjs",
+    "prettier.config.mjs",
+    "configs/",
+    "types/"
+  ],
+  "exports": {
+    ".": "./index.mjs",
+    "./configs": "./configs/",
+    "./prettier": "./prettier.config.mjs",
+    "./types": "./types/index.d.ts"
+  },
   "private": false,
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",

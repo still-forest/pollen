@@ -1,2 +1,4 @@
-export { default as eslintConfig } from "./eslint.config.mjs";
-export { default as prettierConfig } from "./prettier.config.mjs";
+export { default as base } from "./configs/base.config.mjs";
+export { default as react } from "./configs/react.config.mjs";
+
+export { default as prettier } from "./prettier.config.mjs";
