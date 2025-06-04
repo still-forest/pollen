@@ -19,10 +19,7 @@
     "declaration": true,
     "declarationDir": "dist",
     "emitDeclarationOnly": true,
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["./lib/*"]
-    }
+    "baseUrl": "."
   },
-  "include": ["lib"]
+  "include": ["**/*.(ts|tsx|js|jsx)"]
 }
