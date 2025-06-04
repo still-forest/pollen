@@ -1,0 +1,61 @@
+{
+  "name": "@still-forest/pollen",
+  "version": "0.1.0",
+  "author": "John Szymanowski <john@stillforest.dev>",
+  "license": "MIT",
+  "description": "TypeScript linter + formatter, based on ESLint & Prettier",
+  "main": "index.mjs",
+  "types": "./types/index.d.ts",
+  "files": [
+    "index.mjs",
+    "prettier.config.mjs",
+    "configs/",
+    "types/"
+  ],
+  "exports": {
+    ".": "./index.mjs",
+    "./configs": "./configs/",
+    "./prettier": "./prettier.config.mjs",
+    "./types": "./types/index.d.ts"
+  },
+  "private": false,
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/still-forest/pollen.git"
+  },
+  "scripts": {
+    "format": "prettier --write .",
+    "lint": "eslint .",
+    "lint:ci": "eslint --quiet .",
+    "lint:fix": "eslint --fix .",
+    "release": "release-it",
+    "release:dry-run": "release-it --dry-run"
+  },
+  "packageManager": "pnpm@10.11.0",
+  "peerDependencies": {
+    "eslint": "^9.28.0",
+    "prettier": "^3.5.0",
+    "typescript": "^5.8.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.33.1",
+    "@typescript-eslint/parser": "^8.33.1",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "prettier-plugin-tailwindcss": "^0.6.12"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.28.0",
+    "eslint": "^9.28.0",
+    "globals": "^16.2.0",
+    "release-it": "^19.0.3",
+    "typescript": "^5.8.0",
+    "typescript-eslint": "^8.33.1"
+  }
+}
