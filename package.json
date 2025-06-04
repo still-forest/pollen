@@ -10,7 +10,10 @@
     "lib/"
   ],
   "exports": {
-    ".": "./lib/index.mjs",
+    ".": {
+      "types": "./lib/types/index.d.ts",
+      "default": "./lib/index.mjs"
+    },
     "./configs": "./lib/configs/",
     "./prettier": "./lib/configs/prettier.config.mjs",
     "./types": "./lib/types/index.d.ts"
