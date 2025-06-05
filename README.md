@@ -50,7 +50,7 @@ export { react as default } from "@still-forest/pollen";
 Add a `prettier.config.js|mjs` file with:
 
 ```js
-export { prettier as default } "@still-forest/pollen";
+export { prettier as default } from "@still-forest/pollen";
 ```
 
 ## Local testing
